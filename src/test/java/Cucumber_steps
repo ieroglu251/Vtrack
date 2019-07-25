@@ -1,0 +1,8 @@
+in order to write and run cucumber cases, follow the steps.
+1 - create a feature file
+        -make sure it is link to cucumber-file extention (Settings->Editor->File Types)
+2 - write your test cases (scenario here, use given,when, and, then)
+3 - create a new class (can be in a different package) and define the steps (where you will use selenium).
+4 - create a test class (can be in a different package) to run your cucumber class. ex.TestRunner class.
+   - make sure to link your runtest class to testng by using AbstractTestNGCucumberTests. so download dependecies.
+ 5 - create xml file, like testng xml, to run your test.
