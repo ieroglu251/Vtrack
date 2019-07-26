@@ -6,3 +6,5 @@ in order to write and run cucumber cases, follow the steps.
 4 - create a test class (can be in a different package) to run your cucumber class. ex.TestRunner class.
    - make sure to link your runtest class to testng by using AbstractTestNGCucumberTests. so download dependecies.
  5 - create xml file, like testng xml, to run your test.
+
+ 6 - make sure glue ---> same as stepsdefination package.
