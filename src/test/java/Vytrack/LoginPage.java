@@ -2,6 +2,7 @@ package Vytrack;
 
 import Resources.BaseUtilities;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -9,6 +10,8 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 public class LoginPage extends BaseUtilities {
+
+    WebDriver driver;
 
     @BeforeTest
     public void initialize()throws IOException {

@@ -20,18 +20,18 @@ public class BaseUtilities {
     public WebDriver InitializeDriver()throws IOException {
 
         prop = new Properties();
-        FileInputStream file = new FileInputStream("C:\\Users\\Ismail Eroglu\\Vytrack\\src\\main\\java\\Resources\\Data.properties");
+        FileInputStream file = new FileInputStream("C:\\Users\\ieroglu\\ieroglu_github\\Vtrack\\src\\main\\java\\Resources\\Data.properties");
         prop.load(file);
 
         String browserName = prop.getProperty("browser");
 
         if(browserName.equals("chrome")){
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ismail Eroglu\\Dependencies\\Drivers\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\ieroglu\\Dependencies\\Drivers\\chromedriver.exe");
             driver = new ChromeDriver();
         }
 
        else if(browserName.equals("firefox")){
-            System.setProperty("webdriver.firefox.driver", "C:\\Users\\Ismail Eroglu\\Dependencies\\Drivers\\geckodriver.exe");
+            System.setProperty("webdriver.firefox.driver", "C:\\Users\\ieroglu\\Dependencies\\Drivers\\geckodriver.exe");
             driver = new ChromeDriver();
         }
 

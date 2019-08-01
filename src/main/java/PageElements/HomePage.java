@@ -66,7 +66,7 @@ public class HomePage {
         return driver.findElement(ActivitiesLocstor);
     }
 
-    By SystemLocator = By.xpath("//*[@id=\"main-menu\"]/ul/li[3]/a/span");
+    By SystemLocator = By.xpath("//*[@id=\"main-menu\"]/ul/li[4]/a/span");
     public WebElement system(){
         return driver.findElement(SystemLocator);
     }
