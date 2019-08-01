@@ -93,17 +93,13 @@
 
 
 
-<<<<<<< HEAD
 
-
-
-=======
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
             <version>4.0.6</version>
         </dependency>
->>>>>>> 4d50463dc0cc3df5fa99c2829e4f432b3b78430a
+
 
     </dependencies>
 
